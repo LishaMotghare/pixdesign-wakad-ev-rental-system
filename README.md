@@ -6,7 +6,6 @@
 
 ### 📸 App Preview
 ![Home Page](Screenshot%202026-10-16%20100552.png)
-![Rental App](Screenshot%202026-10-16%20100626.png)
 
 ### ✨ Key Features
 - 📍 Live GPS Tracking - Wakad 5km Geofence
