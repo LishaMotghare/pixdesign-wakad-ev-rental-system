@@ -1,0 +1,6 @@
+{
+  "name": "PixDesign EV Rental",
+  "description": "PixDesign EV Rental System by PixDesign Technologies Pune with 3-language support (EN, HI, MR) in Wakad, Hinjewadi, Baner, and Thergaon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

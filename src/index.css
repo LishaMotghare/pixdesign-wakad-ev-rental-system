@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Leaflet map styles and z-index fixes */
+.leaflet-pane {
+  z-index: 10 !important;
+}
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 20 !important;
+}
+
+/* Custom scooter map pin */
+.scooter-marker-pin {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.scooter-marker-pin:hover {
+  transform: scale(1.15);
+}
+
+/* Custom Geofence dotted circle styling */
+.geofence-circle {
+  stroke-dasharray: 6, 8;
+  animation: dash 30s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+/* Hide scrollbars while allowing scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
